@@ -1,0 +1,11 @@
+
+PUT http://localhost:8081/events/4
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imdhc3Rvbmphcmp1NDBAZ21haWwuY29tIiwiZXhwIjoxNzM4NDE4MjQ2LCJ1c2VySWQiOjJ9._zr4mA3vNjQWTIMqvI2CrjuveyS2mYs0GuJfE7o3toM
+
+{
+	"name": "Updated Event 1",
+	"description": "You got this!",
+	"location": "Memmeh",
+	"dateTime": "2025-01-01T15:30:00.000Z"
+}
